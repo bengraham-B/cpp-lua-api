@@ -1,5 +1,5 @@
 local http = require("socket.http")
-local json = require("json")
+local json = require("JSON")
 print("starting POST")
 
 local data = {

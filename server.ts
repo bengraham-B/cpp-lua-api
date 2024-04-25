@@ -15,7 +15,7 @@ app.get("/test", (req:Request, res:Response) => {
 
 app.post("/data", (req:Request, res: Response) => {
     console.log("POST")
-    const {data} = req.body 
+    const data = req.body 
     console.log(data)
 
     res.status(200).json({msg: "POST Route"})
